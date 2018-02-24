@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Nova</title>
+<link href="styleContact.css" type="text/css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+
+<link href="fa/css/fontawesome-all.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+</head>
+
+<body>
+
+	<div id="headtop">
+		<div class="wrapper">
+			<div id="contact">
+				<p><i class="fas fa-phone"></i> &nbsp;
+				011.333.00.00</p>
+				<p><i class="far fa-envelope"></i> &nbsp;
+				info@primer.rs</p>
+			</div>
+			<div id="social">
+				<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+				<a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
+				<a href="https://www.linkedin.com/uas/login" target="_blank"><i class="fab fa-linkedin"></i></a>
+			</div>
+		</div>
+	</div><!-- end of #headtop -->
+	<div id="head">
+		<div class="wrapper">
+			<div id="logo">
+				<img src="img/logo.svg" alt="logoNova">
+			</div>
+			<div id="toggle">
+				<i class="fas fa-bars menu"></i>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="products.html">products</a></li>
+					<li><a href="aboutus">about us</a></li>
+					<li><a href="news.html">news</a></li>
+					<li><a href="contact.html">contact</a></li>	
+				</ul>
+			</div>
+			
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$(".menu").click(function(){
+						$("#nav").slideToggle(500)
+					})
+				})
+			</script>
+		</div>	
+	</div><!-- end of #head -->
+	<div id="cpage">
+		<div class="wrapper" id="kontakt">
+			<div id="forma">
+			<div id="main">
+				<h1>Contact us</h1>
+				<p>We are here to answer any questions you may have about our combadi experiences. Reach out to us and we'll respond as soon as we can.</p>
+				<p>Even if there is something you have always wanted to experience and can't find it on combadi, let us know and we promise we'll do our best to find it for you and send you there.</p>
+				<form action="action_page.php">
+   					<label for="fname">Name</label>
+   					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+   					<label for="lname">Email</label>
+   					<input type="text" id="lname" name="lastname" placeholder="Your email..">
+   					<label for="country">Country</label>
+   					<select id="country" name="country">
+   					  <option value="australia">Australia</option>
+   					  <option value="canada">Serbia</option>
+   					  <option value="usa">USA</option>
+   					</select>
+   					<label for="subject">Message</label>
+   					<textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+   					<div id="subm">
+   						<input type="submit" value="Submit">
+   					</div>
+   				</form>
+   			</div>
+			<div id="info">
+				<p>EMAIL</p>
+				<p>info@primer.rs</p>
+				<p>TELEPHONE</p>
+				<p>011.33.33.000</p>
+				<p>ADRESS</p>
+				<p>Nova Ltd. <br> neka adresa <br> Beograd <br> Srbija <br> <br> Company No. 809468627</p>
+				<p>SKYPE</p>
+				<p>novadesign</p>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<div class="wrapper">
+			<div class="footerText">
+				<h4>Lorem ipsum dolor</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi neque, inventore ipsam. Laborum atque pariatur natus, culpa facilis dolor fuga perspiciatis, ea sit tempore corporis quam saepe cumque.</p>
+			</div>
+			<div class="footerText">
+				<h4>Delectus earum nisi</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi neque, inventore ipsam. Laborum atque pariatur natus, culpa facilis dolor fuga perspiciatis, ea sit tempore corporis quam saepe cumque.</p>
+			</div>
+			<div id="footerLogo">
+				<img src="img/logo.svg">
+			</div>
+			
+			<div id="copyright">
+				
+				<div class="learnMore">
+					<a href="#headtop">back to top</a>
+				</div>
+				<p>Copyright &#64; ITAcademy // privacy / cookie policy </p>
+			</div>
+		</div>
+	</div><!-- end of #footer -->
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
