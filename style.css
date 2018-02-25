@@ -290,6 +290,12 @@ a:active {
 	background: #ebebeb;
 }
 
+.wrapper>h2 {
+	padding-left: 10px;
+}
+.wrapper>p {
+	padding-left: 10px;
+}
 #levi {
 	float: left;
 	width: 440px;
@@ -443,6 +449,21 @@ h5 {
 		font-size: 1.8em;
 	}
 	
+	#abtext {
+		width: 700px;
+	}
+	#levi {
+		
+		width: 320px;
+		padding: 10px;
+		margin-right: 20px;
+	}
+	#desni {
+		
+		width: 320px;
+		padding: 10px;
+	}
+	
 	.grid {
 		width: 700px;
 		height: 140px;
@@ -524,7 +545,32 @@ h5 {
 		width: 98%;
 		padding: 2%;
 	}
+	/* ABOUT US */
 	
+	#abtext {
+		width: 90%;
+		text-align: center;
+		padding: 5%;
+	}
+	#abtext h1 {
+		text-align: center;
+	}
+	
+	#whyus {
+		text-align: center;
+	}
+	
+	#levi {
+		width: 90%;
+		padding: 5%;
+	}
+	#desni {
+		width: 90%;
+		padding: 5%;
+	}
+	
+	
+	/*END OF ABOUT US*/
 	.grid {
 		width: 90%;
 		height: 200px;
